@@ -7,7 +7,6 @@ namespace JokeAPI.Interfaces
 {
     interface IJoke
     {
-        bool Add(string joke);
         string Ask(string jokeStart);
         string Display();
     }

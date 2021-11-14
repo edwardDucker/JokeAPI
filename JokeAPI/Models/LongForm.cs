@@ -25,11 +25,6 @@ namespace JokeAPI.Models
 
         public string WholeJoke { get; set; }
 
-        public bool Add(string joke)
-        {
-            throw new NotImplementedException();
-        }
-
         public string Ask(string jokeStart)
         {
             return null;

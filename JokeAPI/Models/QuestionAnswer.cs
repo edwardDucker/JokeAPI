@@ -28,11 +28,6 @@ namespace JokeAPI.Models
         public string Question { get; set; }
         public string Answer { get; set; }
 
-        public bool Add(string joke)
-        {
-            throw new NotImplementedException();
-        }
-
         public string Ask(string jokeStart)
         {
             if(Question == jokeStart)
